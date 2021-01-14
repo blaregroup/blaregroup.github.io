@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/vendor/whatsapp/floating-wpp.css">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+    
     <!-- =======================================================
   * Template Name: Arsha - v2.3.0
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -68,18 +70,19 @@
         </div>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="h-100 d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h1>We Build</h1>
-                    <h1><span class="text-slider-items">
-                            Dreams, Brands
+                    <h1>Better Solutions For Your Ideas</h1>
+                    <h1>We Build<span class="text-slider-items">
+                            Dreams, Brands, Reality
                         </span>
                         <strong class="text-slider"></strong>
                     </h1>
                     <div class="d-lg-flex">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        <a href="#" class="btn-get-started ml-2 " onclick="$('#contactform_modal').modal('show');">Let's Discuss</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -91,7 +94,7 @@
     <main id="main">
         <!-- ======= Cliens Section ======= -->
         <section id="cliens" class="cliens section-bg">
-            <div class="container">
+            <div class="container d-none ">
                 <div class="row" data-aos="zoom-in">
                     <!--                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
@@ -136,6 +139,11 @@
                             Since day one we’ve believed in your success, had faith in our kick-butt skills and swore by the computer code. Like we said, Crafting amazing digital solutions is not our work, it’s our duty<br><br>
                             <!-- We have successfully served more than 50+ success stories ranging from Enterprises level to Start-ups, We have grown alognside the success of the company.-->
                         </p>
+                         <ul>
+                            <li><i class="ri-check-double-line"></i>Fast Development</li>
+                            <li><i class="ri-check-double-line"></i>Excellence at work</li>
+                            <li><i class="ri-check-double-line"></i>Innovation & Creativity</li>
+                        </ul>
                         <!--<a href="#" class="btn-learn-more">Learn More</a>-->
                     </div>
                 </div>
@@ -166,7 +174,7 @@
                                     <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
                                         <p>Let our dedicated team
                                             take the responsibility.<br>
-                                            <a href="#contact" class="btn badge btn-primary btn-sm" style='max-width: 175px;'>Talk to our Experts!</a>
+                                            <a href="#"  onclick="$('#contactform_modal').modal('show')" class="btn badge btn-primary btn-sm" style='max-width: 175px;'>Talk to our Experts!</a>
                                         </p>
                                     </div>
                                 </li>
@@ -267,7 +275,7 @@
                         <p>You can count on us.</p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="#contact">Let's Discuss!</a>
+                        <a class="cta-btn align-middle" onclick="$('#contactform_modal').modal('show')" href="#">Let's Discuss!</a>
                     </div>
                 </div>
             </div>
@@ -554,7 +562,7 @@
                             <div class="email">
                                 <i class="icofont-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>surajsinghbisht054@gmail.com</p>
+                                <p>official.blaregroup@gmail.com</p>
                             </div>
                             <div class="phone">
                                 <i class="icofont-phone"></i>
@@ -654,9 +662,8 @@
                         <p>Follow us on social media for latest News, Blogpost, Business offers and new Developer Hiring.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                            <a href="https://facebook.com/blaregroupadmin" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://instagram.com/blaregroup" class="instagram"><i class="bx bxl-instagram"></i></a>                            
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>
                     </div>
@@ -672,6 +679,59 @@
     <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
     <div id="preloader"></div>
     <div id="whatsappButton"></div>
+
+    <!-- Contact Model -->
+    <!-- Button trigger modal -->
+    <div class="modal fade " id="contactform_modal" tabindex="-1" role="dialog" aria-labelledby="contactform_modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered  "  role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Contact Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">             
+            <form>
+              <div class="form-group row">
+                <label for="username" class="col-sm-3 col-form-label">Name</label>
+                <div class="col-sm-9 input-group">                    
+                    <div class="input-group-prepend">
+                      <div class="input-group-text text-primary icofont-ui-user"></div>                      
+                    </div>
+                    <input type="text" class="form-control" id="username" placeholder="Enter your Name">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="usermobile" class="col-sm-3 col-form-label">Contact No.</label>
+                <div class="col-sm-9 input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text text-primary icofont-phone"></div>                      
+                    </div>
+                  <input type="text" class="form-control" id="usermobile" placeholder="Contact Number for Communication">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="usermessage" class="col-sm-3 col-form-label">Message</label>
+                <div class="col-sm-9">
+                  <textarea type="textarea" class="form-control" id="usermessage" placeholder="Tell Us something about your idea"></textarea>
+                </div>
+              </div>                                          
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a type="button" class="btn btn-primary" role=button onclick="openMailClient()" >Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Mode End -->
+    <script type="text/javascript">
+        
+    </script>
+
     <!-- whatsapp vendor files -->
     <script type="text/javascript" src="assets/vendor/whatsapp/jquery-3.3.1.min.js"></script>
     <!-- Vendor JS Files -->
@@ -691,6 +751,20 @@
     <!-- typed text script -->
     <!-- Template Main JS File -->
     <script>
+        $(document).ready()
+        { 
+          setTimeout(function(){ $('#contactform_modal').modal('show')}, 1000*3);
+        }
+        
+        function openMailClient()
+        {            
+            var subject = "Want to discuss on my project";
+            var username = $('#username').val();
+            var usermessage = $('#usermessage').val();
+            var body = "Hey Blaregroup \n I'm "+username+" and want to discuss on my project so Let's schedule a meet ASAP and My Message "+usermessage;
+
+            window.open("mailto:official.blaregroup@gmail.com?subject="+subject+"&body="+body);
+        }
     if ($(".text-slider").length == 1) {
 
         var typed_strings =
